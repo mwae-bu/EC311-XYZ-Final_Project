@@ -6,6 +6,7 @@ Memory Dump Decoder
 */
 
 #include <iostream>
+#include <vecotr>
 #include <fstream>
 
 using namespace std;
