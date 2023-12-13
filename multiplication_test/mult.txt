@@ -1,0 +1,6 @@
+mov R0 4
+mov R1 5
+add R2 R0
+dec R1
+cmp R3 R2
+jne -3
