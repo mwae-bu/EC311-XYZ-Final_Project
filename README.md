@@ -19,18 +19,18 @@ After downloading all files and creating a Verilog project (in Vivado), the user
 ## Using the Assembler and Memory Dump Decoder
 To use the provided _XYZassembler.cpp_ and _DumpDecoder.cpp_, it is recommended to compile using C++17 standard. Use the following to compile:
 
-g++ -std=c++17 XYZassembler.cpp -o XYZassembler
-g++ -std=c++17 DumpDecoder.cpp -o DumpDecoder
+g++ -std=c++17 XYZassembler.cpp -o XYZassembler <br />
+g++ -std=c++17 DumpDecoder.cpp -o DumpDecoder <br />
 
 This will result in executable programs for each file.
 
 To use the XYZassembler, run the executable with a .xyz file as shown below:
 
-./XYZassembler example.xyz
+./XYZassembler example.xyz <br />
 
 Similarly, for the DumpDecoder, provide a .BIN file as shown below:
 
-./DumpDecoder example.BIN
+./DumpDecoder example.BIN <br />
 
 ## Code Structure
 There are three main units within the code: the assembler/decoder, the UART modules, and the MPU (microprocessor). Within the MPU exists the controller, ALU, registers, and memory. <br />
