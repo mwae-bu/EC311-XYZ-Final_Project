@@ -1,0 +1,8 @@
+rstregs
+mov R0 4
+mov R1 R0
+dec R1
+add R6 R1
+cmp R2 R1
+jne -3
+halt
