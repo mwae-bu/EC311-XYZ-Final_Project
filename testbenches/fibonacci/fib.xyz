@@ -5,4 +5,6 @@ dec R1
 add R6 R1
 cmp R2 R1
 jne -3
+mov R3 40
+mov [R3] R1
 halt
